@@ -12,6 +12,12 @@
 .text-bold{
 font-weight: 700;
 }
+.text-extrabold{
+font-weight: 800;
+}
+.text-24{
+    font-size: 24px;
+}
 p {
   color: #131318;
   font-size: 16px;
@@ -46,6 +52,10 @@ h5 {
 .mt-100 {
   margin-top: 100px;
 }
+.text-caption{
+    width: 50%;
+    margin: 0 auto;
+}
 /* color */
 .bg-yellow-light {
   border: 1px solid rgba(251, 181, 99, 0.2);
@@ -63,6 +73,15 @@ h5 {
 .button-medium {
   width: 174px;
   height: 52px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: #ff5400;
+  color: #fff;
+  border: none;
+}
+.button-large {
+    width: 100%;
+    height: 52px;
   flex-shrink: 0;
   border-radius: 8px;
   background: #ff5400;
@@ -124,7 +143,6 @@ nav ul a {
   justify-content: center;
   align-items: center;
   flex-shrink: 0;
-  margin-top: 29px;
 }
 .banner-element {
   display: flex;
@@ -309,4 +327,85 @@ nav ul a {
 .choose-box img {
   width: 64px;
   height: 64px;
+}
+.simple-image{
+    border-radius: 16px;
+    background-image: linear-gradient(180deg, #131318 -31.96%, rgba(19, 19, 24, 0.00) 100%),
+      url("./Images/video.png");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* newsletter */
+.newsletter{
+    display: flex;
+    gap: 24px;
+}
+.letter-box{
+    width: 40%;
+    height: 345px;
+    padding: 40px;
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+}
+.input-box{
+display: flex;
+flex-direction: column;
+gap: 16px;
+
+}
+.input-box > input{
+    width: 100%;
+height: 52px;
+display: flex;
+flex-direction: column;
+border-radius: 8px;
+background: rgba(19, 19, 24, 0.05);
+border: none;
+}
+.save{
+    width: 324px;
+height: 120px;
+transform: rotate(-19.628deg);
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+border-radius: 16px;
+background: #FF5400;
+position: relative;
+bottom: 190px;
+left: 330px;
+
+}
+footer{
+    background: rgba(19, 19, 24, 0.05);
+    padding: 110px auto;
+height: 502px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.footer-element{
+display: flex;
+flex-direction: column;
+max-width: 60%;
+justify-content: center;
+align-items: center;
+margin: 0 auto;
+}
+.footer-logo{
+
+}
+.grad-box{
+    width: 100%;
+height: 1px;
+background: rgba(19, 19, 24, 0.10);
+}
+.cr-text{
+    font-family: 'Inter', sans-serif;
+
 }
